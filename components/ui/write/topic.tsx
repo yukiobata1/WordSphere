@@ -20,9 +20,9 @@ export default function Topic() {
         </CardDescription> */}
       </CardHeader>
       <CardContent>
-        <p>Some people think social media improves communication, 
+        <p>{`Some people think social media improves communication, 
             but others feel the drawbacks are more significant. 
-            What's your view? Please explain with examples.</p>
+            What's your view? Please explain with examples.`}</p>
       </CardContent>
       <CardFooter>
         <p>Time limit: 20 minutes</p>
