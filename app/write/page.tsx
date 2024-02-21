@@ -15,9 +15,9 @@ export default function WritePage() {
   };
 
   return (
-    <div className="container mx-auto px-4">
+    <div className="container mx-auto px-4 size-9/12">
       <div className="flex flex-col md:flex-row">
-        <div className="md:w-1/2">
+        <div className="md:w-1/2 max-h-screen">
           <Topic/>
           <Editor onSubmit={onSubmit}/>
         </div>
